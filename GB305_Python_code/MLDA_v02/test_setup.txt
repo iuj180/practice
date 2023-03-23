@@ -1,0 +1,2 @@
+str_train_test=	test
+str_data_path=	D:\Data\GB305\In_test_grid

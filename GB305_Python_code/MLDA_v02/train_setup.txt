@@ -1,0 +1,4 @@
+str_train_test=	train
+str_model_type=	rf
+str_mode=	reg
+str_data_path=	D:\Data\GB305\measure\HD_X_¹Ì»çÃâ

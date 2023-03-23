@@ -1,0 +1,335 @@
+
+**** Log file opened at 2022-12-19 08:56:20.465882 UTC+09:00 (대한민국 표준시), Encoding UTF-8
+NW RFC Library: Kernel variant, Release 750 Patch Level 7, Compiled on Jan 20 2021 04:58:17
+ CPIC library: 753.2020.10.14 version 3, NI library: 40, Kernel Release: 753 Patch Level 728
+ Current working directory: E:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 08:56:20.466104 [11456] >> Info entry
+	Did not find config file E:\blindcat\sapnwrfc.ini.
+
+**** Log file opened at 2022-12-19 13:49:22.944950 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: e:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 13:49:22.945606 [08864] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 13:49:22.946461 [08864] >> Error entry
+	[Handle: 2478225397056	ConvID: 37392682	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+2022-12-19 13:49:24.973074 [08864] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 13:49:24.973239 [08864] >> Error entry
+	[Handle: 2478226657232	ConvID: 37396854	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+2022-12-19 14:55:25.463569 [08864] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 14:55:25.463845 [08864] >> Error entry
+	[Handle: 2478226705568	ConvID: 40741296	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+
+**** Log file opened at 2022-12-19 15:24:39.370680 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: e:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 15:24:39.370866 [04248] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 326
+2022-12-19 15:24:39.372690 [04248] >> Error entry
+	[Handle: 3235799453264	ConvID: 42506914	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+2022-12-19 15:24:45.725113 [04248] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 15:24:45.725268 [04248] >> Error entry
+	[Handle: 3235802015504	ConvID: 42522565	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+
+**** Log file opened at 2022-12-19 15:25:02.819878 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: e:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 15:25:02.820051 [10392] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 15:25:02.820215 [10392] >> Error entry
+	[Handle: 2792590446640	ConvID: 42577551	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+2022-12-19 15:53:15.257336 [10392] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 15:53:15.257454 [10392] >> Error entry
+	[Handle: 2792591357376	ConvID: 44761067	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+2022-12-19 16:00:53.898318 [10392] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 16:00:53.898452 [10392] >> Error entry
+	[Handle: 2792591995280	ConvID: 44747726	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+2022-12-19 16:01:07.988107 [10392] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 16:01:07.988512 [10392] >> Error entry
+	[Handle: 2792592121888	ConvID: 44874802	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+2022-12-19 16:01:35.998149 [10392] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 16:01:35.998259 [10392] >> Error entry
+	[Handle: 2792591791328	ConvID: 44931832	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+2022-12-19 16:01:41.976291 [10392] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 16:01:41.976445 [10392] >> Error entry
+	[Handle: 2792592375696	ConvID: 44946810	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+2022-12-19 16:01:43.115211 [10392] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 16:01:43.115484 [10392] >> Error entry
+	[Handle: 2792597150016	ConvID: 44950960	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+2022-12-19 16:01:44.067158 [10392] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 16:01:44.067815 [10392] >> Error entry
+	[Handle: 2792597255584	ConvID: 44954908	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+2022-12-19 16:16:44.278954 [10392] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 292
+2022-12-19 16:16:44.279194 [10392] >> Error entry
+	[Handle: 2792597302224	ConvID: 44983264	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: TSV_TNEW_PAGE_ALLOC_FAILED, Code: RFC_ABAP_RUNTIME_FAILURE, Message: No more storage space available for extending an internal table.
+
+**** Log file opened at 2022-12-19 16:16:44.378563 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: E:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 16:16:44.378661 [02824] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 292
+2022-12-19 16:16:44.378808 [02824] >> Error entry
+	[Handle: 1969451941728	ConvID: 44953310	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: TSV_TNEW_PAGE_ALLOC_FAILED, Code: RFC_ABAP_RUNTIME_FAILURE, Message: No more storage space available for extending an internal table.
+2022-12-19 16:17:42.713364 [10392] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 16:17:42.713512 [10392] >> Error entry
+	[Handle: 2792592283024	ConvID: 45484566	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+
+**** Log file opened at 2022-12-19 16:37:26.977553 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: E:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 16:37:26.977699 [02592] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 338
+2022-12-19 16:37:26.977905 [02592] >> Error entry
+	[Handle: 1748215435472	ConvID: 47003714	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_PARENTHESES, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A condition specified dynamically has an unexpected format.
+
+**** Log file opened at 2022-12-19 16:37:46.290744 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: E:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 16:37:46.290844 [03764] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 339
+2022-12-19 16:37:46.291018 [03764] >> Error entry
+	[Handle: 1538521860160	ConvID: 47041099	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_PARENTHESES, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A condition specified dynamically has an unexpected format.
+
+**** Log file opened at 2022-12-19 16:37:55.878419 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: E:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 16:37:55.878573 [06860] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 339
+2022-12-19 16:37:55.878780 [06860] >> Error entry
+	[Handle: 2515353849664	ConvID: 47062652	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_PARENTHESES, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A condition specified dynamically has an unexpected format.
+
+**** Log file opened at 2022-12-19 17:10:22.472202 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: E:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 17:10:22.472470 [05252] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 17:10:22.472837 [05252] >> Error entry
+	[Handle: 1769471469712	ConvID: 49574237	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+
+**** Log file opened at 2022-12-19 18:12:46.336762 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: E:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 18:12:46.337058 [11828] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 18:12:46.337298 [11828] >> Error entry
+	[Handle: 2847731789904	ConvID: 52782109	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+
+**** Log file opened at 2022-12-19 18:13:03.013178 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: E:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 18:13:03.013282 [05732] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 18:13:03.013405 [05732] >> Error entry
+	[Handle: 2991750512160	ConvID: 52801810	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+
+**** Log file opened at 2022-12-19 18:13:09.798044 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: E:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 18:13:09.798243 [05840] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 18:13:09.798631 [05840] >> Error entry
+	[Handle: 1812089515168	ConvID: 52810601	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+
+**** Log file opened at 2022-12-19 18:13:34.612233 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: E:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 18:13:34.612431 [10308] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-19 18:13:34.612654 [10308] >> Error entry
+	[Handle: 1912041318656	ConvID: 52840401	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+
+**** Log file opened at 2022-12-19 18:13:41.614856 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: E:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-19 18:13:41.615008 [02700] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 326
+2022-12-19 18:13:41.615189 [02700] >> Error entry
+	[Handle: 1738516355696	ConvID: 52850407	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+
+**** Log file opened at 2022-12-20 16:55:53.461888 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: e:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-20 16:55:53.462006 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 351
+2022-12-20 16:55:53.462926 [07948] >> Error entry
+	[Handle: 2119939006512	ConvID: 35041358	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_MISSING_VALUE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A comparison value is missing in a condition specified dynamically.
+2022-12-20 16:57:02.524655 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 351
+2022-12-20 16:57:02.524831 [07948] >> Error entry
+	[Handle: 2119946096736	ConvID: 34263436	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_MISSING_VALUE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A comparison value is missing in a condition specified dynamically.
+2022-12-20 16:57:08.256375 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 351
+2022-12-20 16:57:08.256535 [07948] >> Error entry
+	[Handle: 2119946104208	ConvID: 34276175	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_MISSING_VALUE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A comparison value is missing in a condition specified dynamically.
+2022-12-20 16:57:59.541086 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 342
+2022-12-20 16:57:59.541238 [07948] >> Error entry
+	[Handle: 2119643107200	ConvID: 34394454	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_ILLEGAL_VALUE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A condition specified at runtime has an unexpected format.
+2022-12-20 16:58:03.468660 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 342
+2022-12-20 16:58:03.469077 [07948] >> Error entry
+	[Handle: 2119643114672	ConvID: 34410376	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_ILLEGAL_VALUE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A condition specified at runtime has an unexpected format.
+2022-12-20 16:58:16.047741 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 351
+2022-12-20 16:58:16.047861 [07948] >> Error entry
+	[Handle: 2119643122144	ConvID: 34441962	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_MISSING_VALUE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A comparison value is missing in a condition specified dynamically.
+2022-12-20 16:58:45.107751 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 351
+2022-12-20 16:58:45.107989 [07948] >> Error entry
+	[Handle: 2119643129616	ConvID: 34509030	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_MISSING_VALUE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A comparison value is missing in a condition specified dynamically.
+2022-12-20 16:58:53.536397 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 351
+2022-12-20 16:58:53.536599 [07948] >> Error entry
+	[Handle: 2119644423840	ConvID: 34524437	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_MISSING_VALUE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A comparison value is missing in a condition specified dynamically.
+2022-12-20 16:58:57.317796 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 349
+2022-12-20 16:58:57.317917 [07948] >> Error entry
+	[Handle: 2119945923328	ConvID: 34531238	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_UNKNOWN_OPERATOR, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A condition specified dynamically has an unexpected format.
+2022-12-20 16:59:00.070975 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-20 16:59:00.071122 [07948] >> Error entry
+	[Handle: 2119939585712	ConvID: 34536994	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
+2022-12-20 16:59:39.440350 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 342
+2022-12-20 16:59:39.440552 [07948] >> Error entry
+	[Handle: 2119939601392	ConvID: 34592340	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_WHERE_ILLEGAL_VALUE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A condition specified at runtime has an unexpected format.
+2022-12-20 17:06:43.489039 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 365
+2022-12-20 17:06:43.489279 [07948] >> Error entry
+	[Handle: 2119939680704	ConvID: 35218391	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: ASSIGN_BASE_WRONG_ALIGNMENT, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Error in ASSIGN assignment in program SAPLSDTX                                .
+2022-12-20 17:07:27.130637 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 365
+2022-12-20 17:07:27.130822 [07948] >> Error entry
+	[Handle: 2119939716192	ConvID: 35276043	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: ASSIGN_BASE_WRONG_ALIGNMENT, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Error in ASSIGN assignment in program SAPLSDTX                                .
+2022-12-20 17:07:55.047749 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 365
+2022-12-20 17:07:55.047890 [07948] >> Error entry
+	[Handle: 2119939490848	ConvID: 35315973	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: ASSIGN_BASE_WRONG_ALIGNMENT, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Error in ASSIGN assignment in program SAPLSDTX                                .
+2022-12-20 17:08:04.720822 [07948] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 365
+2022-12-20 17:08:04.720980 [07948] >> Error entry
+	[Handle: 2119939526336	ConvID: 35328615	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: ASSIGN_BASE_WRONG_ALIGNMENT, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Error in ASSIGN assignment in program SAPLSDTX                                .
+
+**** Log file opened at 2022-12-22 17:18:24.192828 UTC+09:00 (´ëÇÑ¹Î±¹ Ç¥ÁØ½Ã), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 11 2022 06:51:55
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: e:\blindcat, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 94 Step 3), Operating_system: Windows NT 10.0
+ Hostname: A00520031107D06, IP address: 10.15.139.145, IPv6 address: ::1
+
+2022-12-22 17:18:24.192953 [16152] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 327
+2022-12-22 17:18:24.193922 [16152] >> Error entry
+	[Handle: 2226577129808	ConvID: 08502045	Target: lgcr3rip	SysID: R3P	SysNr: 00	User: C002102	Mandant: 100	Language: 3	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_INVALID_FIELDNAME, Code: RFC_ABAP_RUNTIME_FAILURE, Message: A dynamically specified column name is unknown.
