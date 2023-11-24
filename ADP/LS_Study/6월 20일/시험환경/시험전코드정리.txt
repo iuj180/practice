@@ -1,0 +1,152 @@
+######## 문제에서 제공해 주는 데이터 읽기 ########
+import pandas as pd
+
+X = pd.read_csv("./X_train.csv", encoding="euc-kr")
+y = pd.read_csv("./y_train.csv")
+
+test = pd.read_csv("./X_test.csv", encoding="euc-kr")
+########################################################
+
+################ EDA ################
+X_train.shape, y_train.shape, X_test.shape
+
+X.head()
+y.head()
+test.head()
+
+X.isnull().sum()
+y.isnull().sum()
+test.isnull().sum()
+
+X.describe()
+y.describe()
+test.describe()
+
+X.describe(include = "object")
+y.describe(include = "object")
+test.describe(include = "object")
+
+y['gender'].value_counts()
+
+
+################ 전처리 ################
+
+# 특정열 삭제 
+X_train2 = X_train.drop(["Warehouse_block","Mode_of_Shipment", "Product_importance",  "Gender"], axis = 1)
+X_test2  = X_test.drop(["Warehouse_block","Mode_of_Shipment", "Product_importance",  "Gender"], axis = 1)
+
+
+# 평균값 대체 
+train2['AnnualIncome'] = train2['AnnualIncome'].fillna(train2['AnnualIncome'].mean())
+test2['AnnualIncome'] =  test2['AnnualIncome'].fillna(test2['AnnualIncome'].mean())
+
+# 특정값 대체 
+X = X.fillna(0) # 환불금액 0값으로 채움
+test = test.fillna(0)
+
+# target값 변수에 옮겨 놓기 
+target = train2.pop('TravelInsurance')
+X = X.drop(['cust_id'], axis=1)
+cust_id = test.pop('cust_id')
+
+# 라벨 인코딩 
+df2 = pd.concat([train2, test2])
+print(train2.shape, test2.shape, df2.shape)
+
+df2.describe(include = "object")
+tmp1 = pd.get_dummies(df2["Employment Type"], prefix = 'EmploymentType', drop_first = True )
+tmp2 = pd.get_dummies(df2["GraduateOrNot"], prefix = 'GraduateOrNot', drop_first = True)
+tmp3 = pd.get_dummies(df2["FrequentFlyer"], prefix = 'FrequentFlyer', drop_first = True)
+tmp4 = pd.get_dummies(df2["EverTravelledAbroad"], prefix = 'EverTravelledAbroad', drop_first = True)
+df3 = df2.drop(['Employment Type', 'GraduateOrNot', 'FrequentFlyer', 'EverTravelledAbroad'], axis = 1)
+df3 = pd.concat([df3, tmp1, tmp2, tmp3, tmp4], axis = 1)
+
+# 이렇게 합쳐서 전처리 한 다음..다시 train/test 원복 필요 
+train2 = df3[:train.shape[0]].copy()
+test2  =  df3[train.shape[0]:].copy()
+
+########################################################
+
+
+
+########################  모델링  ################################
+
+# 일단 train에서 학습하고 평가하자.. 
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import roc_auc_score
+
+model = RandomForestClassifier(random_state=2022)
+model.fit(train2, target)
+pred_train = model.predict_proba(train2)
+roc_auc_score(target, pred_train[:,1])
+
+########################################################
+
+
+########################  예측 및 제출 ############################
+
+pred_test = model.predict_proba(test2)
+submit = pd.DataFrame()
+submit['id'] = test['id']
+submit['TravelInsurance'] = pred_test[:,1]
+
+submit = pd.DataFrame(
+{"ID":X_test_id,  
+"Reached.on.Time_Y.N": test_pred[:, 1]
+})
+
+
+submit.to_csv("2022.csv", index=False)
+pd.read_csv("2022.csv").head()
+########################################################
+
+#################### 도움말  ####################################
+
+# 함수의 Full Name을 찾는 방법
+import pandas as pd
+print(dir(pd))
+
+#데이터 프레임에서 할 수 있는 것들은?
+print(dir(pd.DataFrame))
+
+#help을 통해 사용법 확인
+# 데이터 프레임에서 결측치 drop을 어떻게 사용했더라?
+print(help(pd.DataFrame.drop))
+
+# 예를 들어, 원핫인코딩 어떻게 사용했더라?
+import pandas as pd
+print(help(pd.get_dummies))
+
+# skleanr 은 약간 다름
+import sklearn
+print(sklearn.__all__)
+
+# 전처리 무엇을 할 수 있지?
+import sklearn.preprocessing
+print(sklearn.preprocessing.__all__)
+
+# 문제에서 민맥스스케일을 적용하라고 하네. 어떻게 사용하지?
+import sklearn.preprocessing
+print(help(sklearn.preprocessing.MinMaxScaler))
+
+
+# 데이터를 나눠야 하는데 풀네임이 뭐더라?
+# 데이터를 트레인과 테스트로 나눠야할 떼 model_selection안에 있다는건 아셔야 해요^^
+import sklearn.model_selection
+print(sklearn.model_selection.__all__)
+
+# 어떻께 사용하더라??
+import sklearn.model_selection
+print(help(sklearn.model_selection.train_test_split))
+
+# 앙상블 모델 쓸래!
+import sklearn.ensemble
+print(sklearn.ensemble.__all__)
+
+
+# 랜덤포레스트 어떻게 썻더라?
+import sklearn.ensemble
+print(help(sklearn.ensemble.RandomForestClassifier()))
+
+########################################################
+
